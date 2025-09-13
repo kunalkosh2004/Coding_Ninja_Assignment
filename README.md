@@ -2,11 +2,11 @@
 
 A sophisticated AI-driven solution for automating Excel skill assessment in technical interviews. Built with Google Gemini AI, LangChain, and Streamlit to solve hiring bottlenecks through intelligent, consistent candidate evaluation.
 
-![Excel Interviewer Demo](https://img.shields.io/badge/Demo-Live%20App-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red) ![Gemini AI](https://img.shields.io/badge/Gemini-Pro-orange)
+![Excel Interviewer Demo](https://codingninjaassignment-8uprydn5wjzfszevxgvf7d.streamlit.app/) ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red) ![Gemini AI](https://img.shields.io/badge/Gemini-Pro-orange)
 
 ## 🚀 Quick Demo
 
-**Try it live:** [Excel Mock Interviewer](https://your-deployed-app-url.streamlit.app)
+**Try it live:** [Excel Mock Interviewer](https://codingninjaassignment-8uprydn5wjzfszevxgvf7d.streamlit.app/)
 
 **Sample Interview Flow:**
 1. **Introduction** → AI explains the process and sets expectations
@@ -119,38 +119,6 @@ docker run -p 8501:8501 -e GOOGLE_API_KEY=your_key_here excel-interviewer
 4. Deploy with one click
 ```
 
-### 2. Heroku
-```bash
-heroku create excel-interviewer-app
-heroku config:set GOOGLE_API_KEY=your_key_here
-git push heroku main
-```
-
-### 3. AWS/Azure/GCP
-- Use provided `Dockerfile` and `docker-compose.yml`
-- Set environment variables in your cloud platform
-- Configure load balancer for high availability
-
-## 🧪 Testing & Quality Assurance
-
-### Run Test Suite
-```bash
-# Install test dependencies
-pip install pytest pytest-mock
-
-# Run all tests
-pytest tests/ -v
-
-# Run with coverage
-pytest tests/ --cov=app --cov-report=html
-```
-
-### Test Coverage
-- **Unit Tests**: 95% coverage of core functionality
-- **Integration Tests**: End-to-end interview flow validation
-- **Mock Testing**: AI service failure handling
-- **Performance Tests**: Load testing for concurrent users
-
 ## 📋 Sample Interview Scenarios
 
 ### High-Performing Candidate (8.2/10)
@@ -248,45 +216,3 @@ Error Rate: <1% evaluation failures
 - [ ] **Skill Gap Analysis**: Detailed learning path recommendations
 - [ ] **Enterprise SSO**: Active Directory and SAML integration
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Development Setup
-```bash
-# Fork and clone the repository
-git clone https://github.com/your-fork/excel-mock-interviewer.git
-
-# Create feature branch
-git checkout -b feature/amazing-feature
-
-# Make changes and commit
-git commit -m "Add amazing feature"
-
-# Push and create pull request
-git push origin feature/amazing-feature
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Google AI**: For providing the powerful Gemini Pro model
-- **Streamlit**: For the excellent web app framework
-- **LangChain**: For conversation management capabilities
-- **Contributors**: All developers who helped improve this project
-
-## 📞 Support & Contact
-
-- **Issues**: [GitHub Issues](https://github.com/your-username/excel-mock-interviewer/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/excel-mock-interviewer/discussions)
-- **Email**: support@excel-interviewer.com
-- **Documentation**: [Full Documentation](https://docs.excel-interviewer.com)
-
----
-
-**Built with ❤️ by the Excel Interviewer Team**
-
-*Transforming technical interviews, one Excel question at a time.*
