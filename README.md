@@ -2,11 +2,11 @@
 
 A sophisticated AI-driven solution for automating Excel skill assessment in technical interviews. Built with Google Gemini AI, LangChain, and Streamlit to solve hiring bottlenecks through intelligent, consistent candidate evaluation.
 
-![Excel Interviewer Demo](https://codingninjaassignment-8uprydn5wjzfszevxgvf7d.streamlit.app/) ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red) ![Gemini AI](https://img.shields.io/badge/Gemini-Pro-orange)
+![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red) ![Gemini AI](https://img.shields.io/badge/Gemini-Pro-orange)
 
 ## 🚀 Quick Demo
 
-**Try it live:** [Excel Mock Interviewer](https://codingninjaassignment-8uprydn5wjzfszevxgvf7d.streamlit.app/)
+**Try it live:** [Excel Mock Interviewer](https://codingninjaassignment-8uprydn5wjzfszevxgvf7d.streamlit.app)
 
 **Sample Interview Flow:**
 1. **Introduction** → AI explains the process and sets expectations
